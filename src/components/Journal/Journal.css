@@ -1,0 +1,46 @@
+.journal {
+    overflow:hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin: 15px;
+}
+
+.journal--entry {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 700px;
+    gap: 50px;
+}
+
+.journal--entry--image {
+    width: 200px;
+    height: 250px;
+    border-radius: 5px;
+}
+
+.journal--entry--writeup h3{
+    margin-top: 10px;
+    font-weight: 700;
+    line-height: 30px;
+    font-size: 25px;
+}
+
+.journal--entry--writeup--location {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.journal--entry--writeup--pin {
+    height: 10px;
+}
+
+.journal--entry--writeup span {
+    margin-left: 5px;
+}
+
+.journal--entry--writeup a {
+    margin-left: 10px;
+}
