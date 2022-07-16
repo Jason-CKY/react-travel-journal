@@ -1,5 +1,7 @@
-# Getting Started with Create React App
+# Second react project: Travel journal
 
+static site with data consumed from file, and usage of props for reusable components.
+Static site available [on github pages](https://jason-cky.github.io/react-travel-journal/).
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
