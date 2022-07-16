@@ -25,10 +25,15 @@ function JournalEntry(props){
 
 
 export function Journal() {
-  let entries = data.map(item => {
-    return <JournalEntry 
+  let entries = data.map((item, index) => {
+    return (
+    <>
+    <JournalEntry 
       {...item}
     />
+    {index !== data.length-1 && <hr/>}
+    </>
+    )
   })
   return (
     <div className='journal'>
